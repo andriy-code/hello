@@ -1,0 +1,95 @@
+*{
+				margin: 0;
+				padding: 0;
+				font-family: 'Poppins', sans-serif;
+				background-color: #f0f3ff;
+}
+.content{
+				width: 100%;
+				height: 100hv;
+				margin: 30px 0;
+				padding: 0;
+}
+.page{
+				width: 100%;
+				height: 100px;
+				background-color: #f0f3ff;
+				display: flex;
+				margin: 20px;
+				padding: 20px;
+				position: flexible;				
+}
+ul{
+				margin: 10px;
+				padding: 10px;
+				position: fixed;
+				right: 50px;
+}
+li{
+				list-style: none;
+				display: inline-block;
+				border-radius: 20px;
+				padding: 10px;
+				background: #3c2aff;
+				
+}
+a{
+					font-size: 20px;
+				width: auto;
+				border: none;
+				background: transparent;
+				color: #ffffff;
+				text-decoration: none;
+}
+.searchBox{
+    border: solid 1px #000000;
+				border-radius: 50px;
+				padding: 20px;
+				background: #f0f3ff;
+				display:flex;
+				align-items: center;
+				margin-right: auto;
+		  margin-left: auto;
+}
+input{
+				font-size: 20px;
+				width: auto;
+				border: none;
+				background: transparent;
+}
+.gIcon{
+				width: 50px;
+}
+.mIcon{
+				width: 50px;
+}
+.btn{
+				padding: 30px;
+				background: #f0f3ff;
+				display:flex;
+				align-items: center;
+}
+.submit{
+				border-radius: 20px;
+				padding: 10px;
+				background: #3c2aff;
+		  display: block;
+		  margin-right: auto;
+		  margin-left: auto;
+		  color: #ffffff;
+}
+.adSearch {
+				margin: 10 30px;
+}
+adSearch, label{
+				margin: 10px 20px;
+}
+form > input{
+				border: solid 1px #000000;
+				margin: 5px 20px;
+}
+span{
+				color: #ff0b00;
+				font-size: 20px;
+				margin: 10px 20px;
+}
